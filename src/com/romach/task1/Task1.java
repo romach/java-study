@@ -33,8 +33,8 @@ public class Task1 {
     }
 
     private void fillArrayWithRandomValues(int[] array) {
+        Random randomGenerator = new Random();
         for (int i = 0; i < array.length; i++) {
-            Random randomGenerator = new Random();
             array[i] = randomGenerator.nextInt();
         }
     }
