@@ -24,7 +24,7 @@ public abstract class AbstractSensor {
 
 class TemperatureSensor extends AbstractSensor {
 
-    public TemperatureSensor(MeasuredParameter parameter) {
+    public TemperatureSensor(Temperature parameter) {
         super(parameter);
     }
 
@@ -36,7 +36,7 @@ class TemperatureSensor extends AbstractSensor {
 
 class HumiditySensor extends AbstractSensor {
 
-    public HumiditySensor(MeasuredParameter parameter) {
+    public HumiditySensor(Humidity parameter) {
         super(parameter);
     }
 
@@ -48,7 +48,7 @@ class HumiditySensor extends AbstractSensor {
 
 class LightSensor extends AbstractSensor {
 
-    public LightSensor(MeasuredParameter parameter) {
+    public LightSensor(Light parameter) {
         super(parameter);
     }
 
@@ -60,7 +60,7 @@ class LightSensor extends AbstractSensor {
 
 class AciditySensor extends AbstractSensor {
 
-    public AciditySensor(MeasuredParameter parameter) {
+    public AciditySensor(Acidity parameter) {
         super(parameter);
     }
 
@@ -72,7 +72,7 @@ class AciditySensor extends AbstractSensor {
 
 class FlowSensor extends AbstractSensor {
 
-    public FlowSensor(MeasuredParameter parameter) {
+    public FlowSensor(Flow parameter) {
         super(parameter);
     }
 
